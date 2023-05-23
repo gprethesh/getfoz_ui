@@ -8,7 +8,7 @@ import AnchorLinkBrowserTransport from "anchor-link-browser-transport";
 const wax = new waxjs.WaxJS({
   rpcEndpoint: "https://wax.greymass.com",
 });
-const dapp = "Getfoz";
+const dapp = "Getfozz";
 let waxAddress;
 let type;
 
