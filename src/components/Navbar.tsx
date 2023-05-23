@@ -26,7 +26,7 @@ const Navbar = () => {
         </NavLink>
         <HashLink to="/#blockchain">Blockchain</HashLink>
         <HashLink to="/#opinions">Trade Opinions</HashLink>
-        <HashLink to="/#faq">Faq</HashLink>
+        <HashLink to="/#faq">FAQ</HashLink>
         {session && <HashLink to="/account/myaccount">DashBoard</HashLink>}
       </div>
 
