@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Share+Tech+Mono&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  @apply text-[#0055FF];
+}
+.active-decoration {
+  @apply underline decoration-2 decoration-blue-900 underline-offset-8 text-left translate-y-1  h-7;
+}
+.deactive-decoration {
+  @apply  h-7 text-left;
+}
