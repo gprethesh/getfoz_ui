@@ -6,6 +6,7 @@ import { FaBitcoin } from "react-icons/fa";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { ColorRing } from "react-loader-spinner";
+import { FcRating } from "react-icons/fc";
 
 const endpoint = import.meta.env.VITE_APP_API_URL;
 const rpc = new JsonRpc(endpoint);
@@ -169,7 +170,7 @@ const LiveEvents = () => {
                       <div className="info-container mt-14 max-w-[450px] h-[452px] rounded-lg bg-[#212345] border-[.8px] border-[#363970] ">
                         <div className="bitcoin px-2 md:px-5 items-center flex justify-between py-2 border-b-[1px] border-[#363970] h-32 ">
                           <div className="flex w-8/12 items-center gap-4">
-                            <FaBitcoin size={60} />
+                            <FcRating size={60} />
                             <p className="text-sm  ml-1 ">
                               {event.description}
                             </p>

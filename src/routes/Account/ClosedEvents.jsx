@@ -5,6 +5,7 @@ import { SessionContext } from "../../components/SessionContext";
 import { Api, JsonRpc } from "eosjs";
 import { ColorRing } from "react-loader-spinner";
 import { FaBitcoin } from "react-icons/fa";
+import { FcRating } from "react-icons/fc";
 
 const endpoint = import.meta.env.VITE_APP_API_URL; // Use the endpoint of an EOSIO node
 const rpc = new JsonRpc(endpoint);
@@ -39,8 +40,6 @@ const ClosedEvents = () => {
     getClosedEvents();
   }, []);
 
-  console.log(import.meta.env.VITE_APP_GETFOZ);
-
   return (
     <>
       {session ? (
@@ -63,7 +62,7 @@ const ClosedEvents = () => {
                       <div className="info-container mt-14 max-w-[450px] h-80 md:h-[392px] rounded-lg bg-[#212345] border-[.8px] border-[#363970] ">
                         <div className="bitcoin px-2 md:px-5 items-center flex justify-between py-2 border-b-[1px] border-[#363970] xl:h-32 ">
                           <div className="flex w-9/12 items-center gap-4">
-                            <FaBitcoin size={60} />
+                            <FcRating size={60} />
                             <p className="text-sm  ml-1 ">
                               {event.description}
                             </p>

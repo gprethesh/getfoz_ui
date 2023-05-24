@@ -7,6 +7,7 @@ import Tos from "./routes/Tos";
 import Privacy from "./routes/Privacy";
 import Refund from "./routes/Refund";
 import Contact from "./routes/Contact";
+import CreateEvent from "./routes/Account/CreateEvent";
 import Account from "./routes/Account/Account";
 import MyAccount from "./routes/Account/MyAccount";
 import TransActions from "./routes/Account/TransActions";
@@ -51,6 +52,7 @@ function App() {
                 element={<TransActions />}
               />
               <Route path="/account/liveevents" element={<LiveEvents />} />
+              <Route path="/account/createevents" element={<CreateEvent />} />
               <Route path="/account/closedevents" element={<ClosedEvents />} />
               <Route
                 path="/account/resolvedevents"

@@ -8,6 +8,7 @@ import goat from "../assets/image-10.png";
 import rabbit from "../assets/image 7.png";
 import skeleton from "../assets/skeleton.png";
 import { FaDiscord } from "react-icons/fa";
+import { FcRating } from "react-icons/fc";
 
 const Home = () => {
   return (
@@ -89,7 +90,8 @@ const Home = () => {
           >
             <div className="bitcoin items-center flex justify-between py-2 border-b-[1px] border-[#363970] xl:h-32 ">
               <div className="flex w-9/12 items-center">
-                <img className="w-8" src={bitlogo} alt="" />
+                {/* <img className="w-8" src={bitlogo} alt="" /> */}
+                <FcRating size={60} />
                 <p className="text-xs xl:text-lg ml-1 ">
                   Will Elon Musk have a net worth of $150 Billion or more by
                   March 17 ?
