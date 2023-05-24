@@ -40,8 +40,8 @@ const Home = () => {
         Trade What You Know
       </h3>
       <p className="text-center text-3xl px-2 sm:px-28 mt-8 font-light mb-32">
-        Invest in your insights regarding regrading upcoming Occurrences, and
-        leverage your expertise to engage in trading and reap advantages.
+        Invest in your insights regarding upcoming Occurrences, and leverage
+        your expertise to engage in trading and reap advantages.
       </p>
       <div className="second-container w-full py-10 px-5 sm:px-28 bg-gradient-radial flex flex-col lg:flex-row items-center">
         <div className="left lg:w-5/12 mb-20 lg:mb-0 h-full flex items-center">
@@ -52,12 +52,13 @@ const Home = () => {
             First on Blockchain
           </h2>
           <p className="text-base sm:text-2xl mt-16">
-            Welcome to GetFoz, the world’s first WAX blockchain-based betting
-            bonanza that’s so much fun, it’ll have you waxing poetic about your
-            trades! Tired of the same old, dull trading platforms? Fear not,
-            because GetFoz is here to shake things up! We’ ve combined the power
-            of WAX blockchain with the exhilarating world of event trading to
-            create an experience that’s as entertaining as it is lucrative.
+            Welcome to GetFoz, the world’s first WAX blockchain-based opinion
+            trading bonanza that’s so much fun, it’ll have you waxing poetic
+            about your trades! Tired of the same old, dull trading platforms?
+            Fear not, because GetFoz is here to shake things up! We’ ve combined
+            the power of WAX blockchain with the exhilarating world of event
+            trading to create an experience that’s as entertaining as it is
+            lucrative.
           </p>
           <p className="text-base sm:text-2xl mt-5">
             Step right up, ladies and gentlemen, and join the GetFoz circus,
@@ -119,7 +120,7 @@ const Home = () => {
                 <p>500 WAX</p>
                 <button className="rounded-xl w-6/12 h-7 bg-[#FF0000] xl:h-10">
                   {" "}
-                  Yes{" "}
+                  No{" "}
                 </button>
               </div>
             </div>
