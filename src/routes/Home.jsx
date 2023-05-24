@@ -7,7 +7,7 @@ import bull from "../assets/image 8.png";
 import goat from "../assets/image-10.png";
 import rabbit from "../assets/image 7.png";
 import skeleton from "../assets/skeleton.png";
-import { FaDiscord } from "react-icons/fa";
+import { FaDiscord, FaFileAlt } from "react-icons/fa";
 import { FcRating } from "react-icons/fc";
 
 const Home = () => {
@@ -43,7 +43,19 @@ const Home = () => {
       <p className="text-center text-3xl px-2 sm:px-28 mt-8 font-light mb-32">
         Invest in your insights regarding upcoming Occurrences, and leverage
         your expertise to engage in trading and reap advantages.
+        <div className="flex justify-center items-center">
+          <a
+            href="https://getfoz.gitbook.io/getfoz/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white w-64 h-12 rounded-2xl mt-10 text-black flex items-center justify-center space-x-2"
+          >
+            <FaFileAlt />
+            <span>WhitePaper</span>
+          </a>
+        </div>
       </p>
+
       <div className="second-container w-full py-10 px-5 sm:px-28 bg-gradient-radial flex flex-col lg:flex-row items-center">
         <div className="left lg:w-5/12 mb-20 lg:mb-0 h-full flex items-center">
           <img src={icon} alt="" />
@@ -82,6 +94,7 @@ const Home = () => {
         upcoming occurrences. It involves analysing economic trends, tracking
         GDP shifts, and deciphering nuanced economic indicators.
       </p>
+
       <div className="third-container sm:relative flex h-full justify-center bg-[#36397031] w-full">
         <div className="organizer sm:relative justify-center flex">
           <div
@@ -138,7 +151,7 @@ const Home = () => {
         id="faq"
         className="fourth-container px-5 py-9 bg-[#232345] flex flex-col w-full items-center  "
       >
-        <h2 className="text-5xl font-semibold text-center">How It Work?</h2>
+        <h2 className="text-5xl font-semibold text-center">How It Works?</h2>
         <br />
         <div className="cards-container flex flex-wrap gap-10 justify-center max-w-[1250px] ">
           <div className="bg-card w-[302px] h-[411px] bg-no-repeat flex flex-col items-center justify-center px-5">
