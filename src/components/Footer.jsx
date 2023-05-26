@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import discord from "../assets/Icons.png";
+import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -10,6 +11,16 @@ const Footer = () => {
           <Link to="/tos">TOS</Link>
           <Link to="/privacy">Privacy Policy</Link>
           <Link to="/refund">Refund Policy</Link>
+
+          <a
+            href="https://twitter.com/getfoztrading"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center"
+          >
+            <FaTwitter style={{ color: "white" }} size={20} />
+            Join Twitter
+          </a>
 
           <a
             href="https://discord.gg/85r3R9cj3Q"
