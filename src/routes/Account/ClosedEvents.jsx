@@ -74,7 +74,11 @@ const ClosedEvents = () => {
                         </div>
                         <div className="">
                           Track on:{" "}
-                          <a href={event.source} target="_blank">
+                          <a
+                            href={event.source}
+                            target="_blank"
+                            className="text-[#0BFF]"
+                          >
                             Link
                           </a>{" "}
                         </div>

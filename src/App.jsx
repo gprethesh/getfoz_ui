@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Tos from "./routes/Tos";
 import Privacy from "./routes/Privacy";
 import Refund from "./routes/Refund";
-import Contact from "./routes/Contact";
+import HistoryData from "./routes/Account/HistoryData";
 import CreateEvent from "./routes/Account/CreateEvent";
 import Account from "./routes/Account/Account";
 import MyAccount from "./routes/Account/MyAccount";
@@ -51,6 +51,7 @@ function App() {
                 path="/account/mytransactions"
                 element={<TransActions />}
               />
+              <Route path="/account/history" element={<HistoryData />} />
               <Route path="/account/liveevents" element={<LiveEvents />} />
               <Route path="/account/createevents" element={<CreateEvent />} />
               <Route path="/account/closedevents" element={<ClosedEvents />} />

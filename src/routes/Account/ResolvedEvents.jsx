@@ -35,6 +35,7 @@ const ResolvedEvents = () => {
         code: import.meta.env.VITE_APP_GETFOZ,
         scope: import.meta.env.VITE_APP_GETFOZ,
         table: "events",
+        reverse: true,
         limit: 1000,
       });
 

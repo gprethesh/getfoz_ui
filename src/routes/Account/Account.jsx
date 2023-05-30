@@ -57,6 +57,15 @@ const Account = () => {
           My Trade
         </NavLink>
 
+        <NavLink
+          to="/account/history"
+          className={({ isActive }) =>
+            isActive ? "active-decoration" : "deactive-decoration"
+          }
+        >
+          My History
+        </NavLink>
+
         {session ? (
           <>
             {String(session.actor) === "getfozgetfoz" ? (
