@@ -43,7 +43,7 @@ const HistoryData = () => {
           lower_bound: username,
           upper_bound: username,
           reverse: true,
-          limit: 1000,
+          limit: 50,
         });
 
         setHistoryInfo(result.rows);

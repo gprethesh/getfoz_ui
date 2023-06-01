@@ -24,6 +24,8 @@ const ClosedEvents = () => {
         code: import.meta.env.VITE_APP_GETFOZ,
         scope: import.meta.env.VITE_APP_GETFOZ,
         table: "events",
+        reverse: true,
+        limit: 1000,
       });
 
       // filter the events that are not resolved and expired
