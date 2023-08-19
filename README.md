@@ -2,6 +2,8 @@
 
 GetFoz UI is a web application that allows users to trade opinions. This repository contains the front-end code for the application.
 
+Please refer to the smart contracts for the backend logic of the application. (https://github.com/gprethesh/getfoz)
+
 ## Prerequisites
 
 - Node.js v18
