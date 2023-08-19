@@ -41,7 +41,7 @@ Follow these steps to set up the project on your local machine:
    npm run dev
    ```
 
-   The application should now be running at [http://localhost:3000](http://localhost:3000) (or the port specified in your configuration).
+   The application should now be running at the port specified in your configuration.
 
 ## Deployment
 
