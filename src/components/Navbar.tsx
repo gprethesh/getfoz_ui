@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full h-28 bg-[#232345] flex justify-between items-center px-3 lg:px-7">
-      <h2 className="text-white">GetFoz</h2>
+      <h2 className="text-white">GetFozX</h2>
       <div className="links w-7/12 hidden md:flex justify-between">
         <NavLink
           to="/"
